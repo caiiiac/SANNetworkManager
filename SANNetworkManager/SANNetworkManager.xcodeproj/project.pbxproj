@@ -14,6 +14,7 @@
 		265F8C291EADDEA700596251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265F8C271EADDEA700596251 /* LaunchScreen.storyboard */; };
 		265F8C341EADDEA700596251 /* SANNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C331EADDEA700596251 /* SANNetworkManagerTests.swift */; };
 		265F8C3F1EADDEA800596251 /* SANNetworkManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C3E1EADDEA800596251 /* SANNetworkManagerUITests.swift */; };
+		265F8C4D1EADDFEC00596251 /* SANNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C4C1EADDFEC00596251 /* SANNetworkManager.swift */; };
 		546A741E438588441039E8AA /* Pods_SANNetworkManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D143519894EEB950265C9C /* Pods_SANNetworkManagerUITests.framework */; };
 		7EB492446782FC74A1E439C3 /* Pods_SANNetworkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092CEFCDD8FC04659A9ECCF4 /* Pods_SANNetworkManager.framework */; };
 		E1F159D2B5125335015646BC /* Pods_SANNetworkManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F9B52018E4EA91D0A79A29 /* Pods_SANNetworkManagerTests.framework */; };
@@ -53,6 +54,7 @@
 		265F8C3A1EADDEA800596251 /* SANNetworkManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SANNetworkManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		265F8C3E1EADDEA800596251 /* SANNetworkManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SANNetworkManagerUITests.swift; sourceTree = "<group>"; };
 		265F8C401EADDEA800596251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265F8C4C1EADDFEC00596251 /* SANNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SANNetworkManager.swift; sourceTree = "<group>"; };
 		51D143519894EEB950265C9C /* Pods_SANNetworkManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SANNetworkManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F0605C8F6759E7B05A80A6 /* Pods-SANNetworkManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SANNetworkManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SANNetworkManagerTests/Pods-SANNetworkManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		85F9B52018E4EA91D0A79A29 /* Pods_SANNetworkManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SANNetworkManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				265F8C251EADDEA700596251 /* Assets.xcassets */,
 				265F8C271EADDEA700596251 /* LaunchScreen.storyboard */,
 				265F8C2A1EADDEA700596251 /* Info.plist */,
+				265F8C4C1EADDFEC00596251 /* SANNetworkManager.swift */,
 			);
 			path = SANNetworkManager;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265F8C4D1EADDFEC00596251 /* SANNetworkManager.swift in Sources */,
 				265F8C211EADDEA700596251 /* ViewController.swift in Sources */,
 				265F8C1F1EADDEA700596251 /* AppDelegate.swift in Sources */,
 			);
@@ -700,6 +704,7 @@
 				265F8C451EADDEA800596251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		265F8C461EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +713,7 @@
 				265F8C481EADDEA800596251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		265F8C491EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +722,7 @@
 				265F8C4B1EADDEA800596251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

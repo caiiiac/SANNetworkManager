@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        SANNetworkManager.shareInstance.request(methodType: .POST, urlString: "http://httpbin.org/post", parameters: ["name" : "Lee"]) { (result, error) in
+            
+            if error != nil {
+                print(error!)
+                return
+            }
+            
+            print(result!)
+        }
+    }
 }
 
