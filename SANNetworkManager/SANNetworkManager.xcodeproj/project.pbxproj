@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265F8C1F1EADDEA700596251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C1E1EADDEA700596251 /* AppDelegate.swift */; };
+		265F8C211EADDEA700596251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C201EADDEA700596251 /* ViewController.swift */; };
+		265F8C241EADDEA700596251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265F8C221EADDEA700596251 /* Main.storyboard */; };
+		265F8C261EADDEA700596251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265F8C251EADDEA700596251 /* Assets.xcassets */; };
+		265F8C291EADDEA700596251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265F8C271EADDEA700596251 /* LaunchScreen.storyboard */; };
+		265F8C341EADDEA700596251 /* SANNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C331EADDEA700596251 /* SANNetworkManagerTests.swift */; };
+		265F8C3F1EADDEA800596251 /* SANNetworkManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265F8C3E1EADDEA800596251 /* SANNetworkManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		265F8C301EADDEA700596251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265F8C131EADDEA700596251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265F8C1A1EADDEA700596251;
+			remoteInfo = SANNetworkManager;
+		};
+		265F8C3B1EADDEA800596251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265F8C131EADDEA700596251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265F8C1A1EADDEA700596251;
+			remoteInfo = SANNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265F8C1B1EADDEA700596251 /* SANNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SANNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		265F8C1E1EADDEA700596251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		265F8C201EADDEA700596251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		265F8C231EADDEA700596251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		265F8C251EADDEA700596251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265F8C281EADDEA700596251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		265F8C2A1EADDEA700596251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265F8C2F1EADDEA700596251 /* SANNetworkManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SANNetworkManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265F8C331EADDEA700596251 /* SANNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SANNetworkManagerTests.swift; sourceTree = "<group>"; };
+		265F8C351EADDEA800596251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265F8C3A1EADDEA800596251 /* SANNetworkManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SANNetworkManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265F8C3E1EADDEA800596251 /* SANNetworkManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SANNetworkManagerUITests.swift; sourceTree = "<group>"; };
+		265F8C401EADDEA800596251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265F8C181EADDEA700596251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265F8C2C1EADDEA700596251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265F8C371EADDEA800596251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265F8C121EADDEA700596251 = {
+			isa = PBXGroup;
+			children = (
+				265F8C1D1EADDEA700596251 /* SANNetworkManager */,
+				265F8C321EADDEA700596251 /* SANNetworkManagerTests */,
+				265F8C3D1EADDEA800596251 /* SANNetworkManagerUITests */,
+				265F8C1C1EADDEA700596251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		265F8C1C1EADDEA700596251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265F8C1B1EADDEA700596251 /* SANNetworkManager.app */,
+				265F8C2F1EADDEA700596251 /* SANNetworkManagerTests.xctest */,
+				265F8C3A1EADDEA800596251 /* SANNetworkManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265F8C1D1EADDEA700596251 /* SANNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				265F8C1E1EADDEA700596251 /* AppDelegate.swift */,
+				265F8C201EADDEA700596251 /* ViewController.swift */,
+				265F8C221EADDEA700596251 /* Main.storyboard */,
+				265F8C251EADDEA700596251 /* Assets.xcassets */,
+				265F8C271EADDEA700596251 /* LaunchScreen.storyboard */,
+				265F8C2A1EADDEA700596251 /* Info.plist */,
+			);
+			path = SANNetworkManager;
+			sourceTree = "<group>";
+		};
+		265F8C321EADDEA700596251 /* SANNetworkManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				265F8C331EADDEA700596251 /* SANNetworkManagerTests.swift */,
+				265F8C351EADDEA800596251 /* Info.plist */,
+			);
+			path = SANNetworkManagerTests;
+			sourceTree = "<group>";
+		};
+		265F8C3D1EADDEA800596251 /* SANNetworkManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				265F8C3E1EADDEA800596251 /* SANNetworkManagerUITests.swift */,
+				265F8C401EADDEA800596251 /* Info.plist */,
+			);
+			path = SANNetworkManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265F8C1A1EADDEA700596251 /* SANNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265F8C431EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManager" */;
+			buildPhases = (
+				265F8C171EADDEA700596251 /* Sources */,
+				265F8C181EADDEA700596251 /* Frameworks */,
+				265F8C191EADDEA700596251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SANNetworkManager;
+			productName = SANNetworkManager;
+			productReference = 265F8C1B1EADDEA700596251 /* SANNetworkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		265F8C2E1EADDEA700596251 /* SANNetworkManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265F8C461EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManagerTests" */;
+			buildPhases = (
+				265F8C2B1EADDEA700596251 /* Sources */,
+				265F8C2C1EADDEA700596251 /* Frameworks */,
+				265F8C2D1EADDEA700596251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265F8C311EADDEA700596251 /* PBXTargetDependency */,
+			);
+			name = SANNetworkManagerTests;
+			productName = SANNetworkManagerTests;
+			productReference = 265F8C2F1EADDEA700596251 /* SANNetworkManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		265F8C391EADDEA800596251 /* SANNetworkManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265F8C491EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManagerUITests" */;
+			buildPhases = (
+				265F8C361EADDEA800596251 /* Sources */,
+				265F8C371EADDEA800596251 /* Frameworks */,
+				265F8C381EADDEA800596251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265F8C3C1EADDEA800596251 /* PBXTargetDependency */,
+			);
+			name = SANNetworkManagerUITests;
+			productName = SANNetworkManagerUITests;
+			productReference = 265F8C3A1EADDEA800596251 /* SANNetworkManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265F8C131EADDEA700596251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "唐三彩";
+				TargetAttributes = {
+					265F8C1A1EADDEA700596251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					265F8C2E1EADDEA700596251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 265F8C1A1EADDEA700596251;
+					};
+					265F8C391EADDEA800596251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 265F8C1A1EADDEA700596251;
+					};
+				};
+			};
+			buildConfigurationList = 265F8C161EADDEA700596251 /* Build configuration list for PBXProject "SANNetworkManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265F8C121EADDEA700596251;
+			productRefGroup = 265F8C1C1EADDEA700596251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265F8C1A1EADDEA700596251 /* SANNetworkManager */,
+				265F8C2E1EADDEA700596251 /* SANNetworkManagerTests */,
+				265F8C391EADDEA800596251 /* SANNetworkManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265F8C191EADDEA700596251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265F8C291EADDEA700596251 /* LaunchScreen.storyboard in Resources */,
+				265F8C261EADDEA700596251 /* Assets.xcassets in Resources */,
+				265F8C241EADDEA700596251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265F8C2D1EADDEA700596251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265F8C381EADDEA800596251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265F8C171EADDEA700596251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265F8C211EADDEA700596251 /* ViewController.swift in Sources */,
+				265F8C1F1EADDEA700596251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265F8C2B1EADDEA700596251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265F8C341EADDEA700596251 /* SANNetworkManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265F8C361EADDEA800596251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265F8C3F1EADDEA800596251 /* SANNetworkManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		265F8C311EADDEA700596251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265F8C1A1EADDEA700596251 /* SANNetworkManager */;
+			targetProxy = 265F8C301EADDEA700596251 /* PBXContainerItemProxy */;
+		};
+		265F8C3C1EADDEA800596251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265F8C1A1EADDEA700596251 /* SANNetworkManager */;
+			targetProxy = 265F8C3B1EADDEA800596251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		265F8C221EADDEA700596251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265F8C231EADDEA700596251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		265F8C271EADDEA700596251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265F8C281EADDEA700596251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265F8C411EADDEA800596251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		265F8C421EADDEA800596251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265F8C441EADDEA800596251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SANNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiiiac.SANNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		265F8C451EADDEA800596251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SANNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiiiac.SANNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		265F8C471EADDEA800596251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SANNetworkManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiiiac.SANNetworkManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SANNetworkManager.app/SANNetworkManager";
+			};
+			name = Debug;
+		};
+		265F8C481EADDEA800596251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SANNetworkManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiiiac.SANNetworkManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SANNetworkManager.app/SANNetworkManager";
+			};
+			name = Release;
+		};
+		265F8C4A1EADDEA800596251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SANNetworkManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiiiac.SANNetworkManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SANNetworkManager;
+			};
+			name = Debug;
+		};
+		265F8C4B1EADDEA800596251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SANNetworkManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caiiiac.SANNetworkManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SANNetworkManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265F8C161EADDEA700596251 /* Build configuration list for PBXProject "SANNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265F8C411EADDEA800596251 /* Debug */,
+				265F8C421EADDEA800596251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265F8C431EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265F8C441EADDEA800596251 /* Debug */,
+				265F8C451EADDEA800596251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		265F8C461EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265F8C471EADDEA800596251 /* Debug */,
+				265F8C481EADDEA800596251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		265F8C491EADDEA800596251 /* Build configuration list for PBXNativeTarget "SANNetworkManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265F8C4A1EADDEA800596251 /* Debug */,
+				265F8C4B1EADDEA800596251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265F8C131EADDEA700596251 /* Project object */;
+}
